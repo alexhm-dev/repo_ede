@@ -15,6 +15,14 @@ public class JavaDoc {
 		}
 		return false;
 	}
-	
-	
+	/**
+	 * @author Alex
+	 * @version v1.0
+	 * @since 2021/05/12
+	 * @param num es un número entero
+	 * @return <i>true</i> si es un número impar y <i>fasle</i> si es par.
+	 */
+	public boolean esImpar(int num) {
+		return num % 2 == 1;
+	}
 }
