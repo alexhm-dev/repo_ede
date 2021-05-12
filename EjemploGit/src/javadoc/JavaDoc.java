@@ -10,10 +10,11 @@ public class JavaDoc {
 	 * @return <i>true</i> si es un número par y <i>false</i> si es impar
 	 */
 	public boolean nombreMetodo(int var1, boolean var2) {
+		var2 = false;
 		if(var1%2 == 0) {
-			return true;
+			var2 = true;
 		}
-		return false;
+		return var2;
 	}
 	/**
 	 * @author Alex
